@@ -114,3 +114,77 @@ header img {
     color: rgb(72, 72, 72);
     width: 200px;
 }
+
+.quote-section {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+    gap: 40px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+    width: 600px;
+}
+
+.quote-section p {
+    margin-left: 400px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cta-section {
+    display: flex;
+    margin: 80px;
+    justify-content: center;
+}
+
+.rectangle {
+    padding: 60px 120px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 20px;
+    justify-content: space-between;
+}
+
+.cta {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+}
+
+.left-side p {
+    margin-top: 0px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.rectangle button {
+    padding: 8px 32px;
+    text-decoration: none;
+    border: 2px solid white;
+    color: white;
+    border-radius: 8px;
+    background: #3882f6;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    padding: 40px;
+    align-items: center;
+    justify-content: center;
+}
